@@ -1,0 +1,13 @@
+Source: libimghash-python
+Section: libs
+Priority: extra
+Maintainer: Roman Grebennikov <grebennikov.roman@gmail.com>
+Build-Depends: imagemagick, libmagick++-dev, cmake, debhelper (>= 8.0.0), libimghash
+Standards-Version: 3.9.3
+X-Python-Version: 2.7
+
+Package: libimghash-python
+Section: libs
+Architecture: any
+Depends: imagemagick (>= 6.6), libmagick++5, libmagick++-dev, libimghash
+Description: libimghash python binding
